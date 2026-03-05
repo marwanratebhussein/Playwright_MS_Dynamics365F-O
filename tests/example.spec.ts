@@ -17,4 +17,9 @@ test('getting started should contain table of contents', async ({ page }) => {
   ]);
 });
 
-
+test('should show Page Object Model article', async ({ page }) => {
+  const playwrightDev = new PlaywrightDevPage(page);
+  await playwrightDev.goto();
+  await playwrightDev.pageObjectModel();
+  await expect(page.locator('article')).toContainText('Page Object Model is a common pattern');
+});
