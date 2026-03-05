@@ -32,4 +32,7 @@ export class PlaywrightDevPage {
     await this.getStarted();
     await this.pomLink.click();
   }
+  async takePageScreenshot(){
+    await this.page.screenshot({path: 'screenshot.png'})
+  }
 }

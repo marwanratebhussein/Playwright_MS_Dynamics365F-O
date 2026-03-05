@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { PlaywrightDevPage } from '../pages/playwright-dev-page';
+import path from 'node:path';
 
 test('getting started should contain table of contents', async ({ page }) => {
   const playwrightDev = new PlaywrightDevPage(page);
@@ -15,6 +16,7 @@ test('getting started should contain table of contents', async ({ page }) => {
     `Generate tests with Codegen`,
     `View a trace of your tests`
   ]);
+  await playwrightDev.takePageScreenshot();
 });
 
 test('should show Page Object Model article', async ({ page }) => {
