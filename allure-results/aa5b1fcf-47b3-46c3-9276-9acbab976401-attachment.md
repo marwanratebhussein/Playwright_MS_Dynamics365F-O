@@ -1,0 +1,43 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e5]:
+  - img "Organization background image" [ref=e6]
+  - generic [ref=e7]:
+    - generic [ref=e13]:
+      - img "Organization banner logo" [ref=e16]
+      - main [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e21]:
+            - button "Back" [ref=e22] [cursor=pointer]
+            - generic "marwan.hussein@pwc.com" [ref=e23]
+          - generic [ref=e25]:
+            - textbox [ref=e26]: marwan.hussein@pwc.com
+            - heading "Enter password" [level=1] [ref=e28]
+            - generic [ref=e30]:
+              - alert
+              - textbox "Enter the password for marwan.hussein@pwc.com" [active] [ref=e32]:
+                - /placeholder: Password
+                - text: Messi_Pulga
+            - generic [ref=e37]:
+              - link "Forgot my password" [ref=e39] [cursor=pointer]:
+                - /url: https://passwordreset.microsoftonline.com/?ru=https%3a%2f%2flogin.microsoftonline.com%2f5836d68f-7ac1-4012-a83d-9a5b5abe4220%2freprocess%3fctx%3drQQIARAAnVNLj9tUFE4mM9OZkZim5SGWXbSAEHb8iGN7pJGw49jx1I9k4jSJN5Ef17Gd-BHbeXlVCSFVXXXFgg0SlE1XiA2oqy5hVl3AhhXsqm5ASIhBYkGSMj8Ajo7Od-8997v3HJ1zjq5RMA4jMPJ-CYXRk9vIVlAC2sArY12triS5eVQu7xBv3m93zj7545t3_b__9J4USTfL4vSkUrEBZNmQDYIIhVMjtM1oCUcxSIzMi8IUBjPYXoVG4FkpbEVB5dti8Xmx-KJYfLKT1nAaoUiEqNZwgsIIGqVhPRCxQa64ctDNdE2synUEUTRrJfXO3EGvm8l-F1W0yXjQU8YDf-LpgYzqgoioWjsbaGKudBBE5mRU6vG-3GtkSjDAZa6xUATdl_3R6qed6yozy1xsY6LEy8HvO4dOlATDOEqzT0tf7qoxCEW7HoUhsDJ4cw2EmWdt02klm8wyD6SnTJthGKUuhzbF8nbj3G9GzKIxrE-glF17GGs2qcXUymURCGA5zwuhQfMbB8PUXwHT1kcbaPx7wrWHbTnFmsQ9kmmt-Z05Ac25UIYGDsqL_ZTj5-SUrdECOtn8zTDqls6IV_xzdOjLia1imb5wXE5t6XUznw_1MR8TSGzgY00ORmfAi7FwG4ZMeDHo5It5mmrYaumSEE-CLjmypkKcYUwCIGykgiZoDnlQ6w17xroU94zmPFamHUgMFxw9abbw2KVUvknF2rg1i2Z9qu1TmsoEHnGWmx3RygPadcQO2YwxnB1bs4jTW_mAuys4Ux6KPQgCI1YBY6Tf5ygoU4RtauyMMQO3f76wBwkbEl2vL7U2MZ4JLFpNU3epJlDDJvseKWSJNOtn8rmZLqaLxTL16LtZXmtqNSmeVZdph6Idvpex7sCsvnMObC9ZV1WLTrfdewdn7mD8Wv9bD68JX5duExRes2uUA5GGhUJVBMUgg8JtiDYIkzBMUMUw5KJ0vH4m9OxbcRI53gQ8273_xd7z3eLL3bcODsqltwu3Cu-9gZRODg6OyoXN7nK3-PneeuA--vD1nb8eH7MPP_7hR_MXtnCxVwlkh-3pPsIvTU-qzXIV7yqZNOVicZwJ3dxsOYbeXXj2iE5PyRP00X7x0f7-xf6hyA2VhlYlsd_2iw-uFZ4e_t_RffZa4fL46cMX3z3-_rNfmy-vf1BZCZjjt8d-t4I36qHJ-o4kp7i0koiUMXxTilzNZNXUJ5DTr8qFn9d6o3B5o_zgZuEf0&mkt=en-US&hosted=0&device_platform=Windows+10
+              - link "Sign in another way" [ref=e41] [cursor=pointer]:
+                - /url: "#"
+            - button "Sign in" [ref=e44] [cursor=pointer]
+            - paragraph [ref=e46]:
+              - text: By clicking the 'Sign in' button above, you are accepting the
+              - link "Terms of Use" [ref=e47] [cursor=pointer]:
+                - /url: https://www.pwc.com/gx/en/legal-notices/PwC-M365_Terms-of-Use.pdf
+              - text: and acknowledging that you have read and understand the
+              - link "Privacy Policy" [ref=e48] [cursor=pointer]:
+                - /url: https://www.pwc.com/gx/en/legal-notices/PwC-M365_Privacy-Statement.pdf
+              - text: .
+    - contentinfo [ref=e49]:
+      - generic [ref=e50]:
+        - link "Terms of use" [ref=e51] [cursor=pointer]:
+          - /url: https://www.microsoft.com/en-US/servicesagreement/
+        - link "Privacy & cookies" [ref=e52] [cursor=pointer]:
+          - /url: https://privacy.microsoft.com/en-US/privacystatement
+        - button "Click here for troubleshooting information" [ref=e53] [cursor=pointer]: ...
+```

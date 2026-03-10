@@ -25,3 +25,8 @@ test('should show Page Object Model article', async ({ page }) => {
   await playwrightDev.pageObjectModel();
   await expect(page.locator('article')).toContainText('Page Object Model is a common pattern');
 });
+
+test('Open the F&O dashboard', async({ page }) => {
+  await page.goto("https://de-cd-demo1.sandbox.operations.eu.dynamics.com/?cmp=usmf&mi=DefaultDashboard");
+  await expect(page.locator('xpath=//span[contains(text(), "Contoso Entertainment System USA")]')).toBeVisible();
+});
