@@ -1,0 +1,580 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - banner "Navigation bar" [ref=e3]:
+    - generic [ref=e4]:
+      - link "Office 365" [ref=e5] [cursor=pointer]:
+        - generic [ref=e7]: 
+      - button "Finance and Operations" [ref=e8] [cursor=pointer]:
+        - generic [ref=e9]:
+          - text: 
+          - generic [ref=e10]: Finance and Operations
+    - text:   
+    - generic [ref=e11]:
+      - search [ref=e12]:
+        - generic [ref=e13] [cursor=pointer]:
+          - textbox "Search for a page" [ref=e14]:
+            - /placeholder: ""
+          - text:  Search for a page
+      - text: 
+    - button "Current company is usmf, activate to choose a company" [ref=e16] [cursor=pointer]: USMF
+    - generic [ref=e17]:
+      - list [ref=e18]:
+        - listitem [ref=e19]:
+          - button "Copilot" [ref=e20] [cursor=pointer]:
+            - img "Image NavBarActions_SysCopilotChatPanel" [ref=e23]
+      - button "Show messages (Ctrl+Shift+F7) Open to view system messages." [ref=e25] [cursor=pointer]: 
+      - generic [ref=e26] [cursor=pointer]:
+        - button "Settings" [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e29]: 
+            - text: 
+        - text:    
+      - generic [ref=e30] [cursor=pointer]:
+        - button "Help & Support" [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: 
+            - text: 
+        - text:      
+      - text:  
+      - button "MA" [ref=e35] [cursor=pointer]:
+        - generic [ref=e36]: MA
+  - navigation "Navigation menu" [ref=e38]:
+    - button "Expand the navigation pane" [ref=e39] [cursor=pointer]: 
+    - tree [ref=e40]:
+      - treeitem "Home" [level=1] [ref=e41] [cursor=pointer]:
+        - generic [ref=e42]: 
+      - treeitem "Favorites" [level=1] [ref=e43] [cursor=pointer]:
+        - generic [ref=e44]: 
+      - treeitem "Recent" [level=1] [ref=e45] [cursor=pointer]:
+        - generic [ref=e46]: 
+      - treeitem "Workspaces" [level=1] [ref=e47] [cursor=pointer]:
+        - generic [ref=e48]: 
+      - treeitem "Modules" [level=1] [ref=e49] [cursor=pointer]:
+        - generic [ref=e50]: 
+  - main [ref=e51]:
+    - text:                                                                                       
+    - form "All purchase orders:" [ref=e52]:
+      - toolbar [ref=e53]:
+        - button "Back" [ref=e54] [cursor=pointer]:
+          - generic [ref=e56]: 
+        - button " Edit" [ref=e57] [cursor=pointer]:
+          - generic [ref=e58]:
+            - generic [ref=e59]: 
+            - generic [ref=e60]: Edit
+        - button " New" [ref=e61] [cursor=pointer]:
+          - generic [ref=e62]:
+            - generic [ref=e63]: 
+            - generic [ref=e64]: New
+        - button " Delete" [disabled] [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]: 
+            - generic [ref=e68]: Delete
+        - button "Purchase order" [expanded] [ref=e70] [cursor=pointer]
+        - button "Purchase" [ref=e72] [cursor=pointer]
+        - button "Manage" [ref=e74] [cursor=pointer]
+        - button "Receive" [ref=e76] [cursor=pointer]
+        - button "Invoice" [ref=e78] [cursor=pointer]
+        - button "Retail" [ref=e80] [cursor=pointer]
+        - button "Warehouse" [ref=e82] [cursor=pointer]
+        - button "Search for an action" [ref=e84] [cursor=pointer]: 
+        - button "More" [ref=e85]: 
+        - button "Power Apps" [ref=e87] [cursor=pointer]:
+          - generic [ref=e88]:
+            - generic [ref=e89]: 
+            - text: 
+        - button "Open in Microsoft Office" [ref=e91] [cursor=pointer]:
+          - generic [ref=e92]:
+            - generic [ref=e93]: 
+            - text: 
+        - button "Attachments (0)" [ref=e94] [cursor=pointer]:
+          - generic [ref=e95]:
+            - generic [ref=e96]: 
+            - generic [ref=e97]: "0"
+        - button "Refresh" [ref=e98] [cursor=pointer]:
+          - generic [ref=e100]: 
+        - button "Open in new window" [ref=e101] [cursor=pointer]:
+          - generic [ref=e103]: 
+      - toolbar [ref=e104]:
+        - generic [ref=e105]:
+          - group "New" [ref=e106]:
+            - generic [ref=e107]: New
+            - button "From a sales order" [ref=e108] [cursor=pointer]:
+              - generic [ref=e109]:  From a sales order
+          - group "Maintain" [ref=e110]:
+            - generic [ref=e111]: Maintain
+            - button "Request change" [disabled] [ref=e112]:
+              - generic [ref=e113]:  Request change
+            - button "Cancel" [disabled] [ref=e114]:
+              - generic [ref=e115]:  Cancel
+          - group "Copy" [ref=e116]:
+            - generic [ref=e117]: Copy
+            - button "From all" [ref=e118] [cursor=pointer]:
+              - generic [ref=e119]:  From all
+            - button "From journal" [ref=e120] [cursor=pointer]:
+              - generic [ref=e121]:  From journal
+          - group "View" [ref=e122]:
+            - generic [ref=e123]: View
+            - button "Totals" [ref=e124] [cursor=pointer]:
+              - generic [ref=e125]:  Totals
+          - group "Clean up" [ref=e126]:
+            - generic [ref=e127]: Clean up
+            - button "Clean up purchase update history" [ref=e128] [cursor=pointer]:
+              - generic [ref=e129]:  Clean up purchase update history
+          - group "Engineering change request" [ref=e130]:
+            - generic [ref=e131]: Engineering change request
+            - button "New engineering change request" [ref=e132] [cursor=pointer]:
+              - generic [ref=e133]:  New engineering change request
+            - button "View engineering change requests" [ref=e134] [cursor=pointer]:
+              - generic [ref=e135]:  View engineering change requests
+        - button "" [ref=e136] [cursor=pointer]
+      - button "Show filters" [ref=e137] [cursor=pointer]:
+        - generic [ref=e139]: 
+      - button "Related information" [ref=e140] [cursor=pointer]:
+        - generic [ref=e142]: 
+      - region "All purchase orders:" [ref=e143]:
+        - generic [ref=e144]:
+          - generic [ref=e145]:
+            - heading "All purchase orders Standard view" [level=1] [ref=e147]:
+              - text: All purchase orders |
+              - button "Standard view" [ref=e148] [cursor=pointer]:
+                - generic [ref=e149]:  Standard view
+            - generic [ref=e150]:
+              - text:  
+              - tabpanel [ref=e151]:
+                - generic [ref=e152]:
+                  - search "Filter" [ref=e153]:
+                    - combobox "Filter" [active] [ref=e154]
+                    - button "" [ref=e155] [cursor=pointer]
+                    - generic: ": : : : : : : : : : : : :"
+                    - text: Filter
+                  - grid "Purchase orders" [ref=e159]:
+                    - generic [ref=e160]:
+                      - row "Purchase order  Vendor account Invoice account Vendor name Purchase type Approval status Purchase order status Currency Requested receipt date Mode of delivery Delivery terms Purchase agreement Quality order status Direct delivery Project subcontract number Grid options" [ref=e162]:
+                        - generic:
+                          - columnheader [ref=e165]:
+                            - checkbox "Select or unselect all rows" [ref=e166] [cursor=pointer]:
+                              - img [ref=e171]
+                          - generic [ref=e174]:
+                            - columnheader "Purchase order " [ref=e175]:
+                              - text: "::"
+                              - generic [ref=e177]:
+                                - generic "Purchase order Click to follow link" [ref=e178]: Purchase order
+                                - text: 
+                            - columnheader "Vendor account" [ref=e179]:
+                              - text: "::"
+                              - generic "Vendor account Click to follow link" [ref=e182]: Vendor account
+                            - columnheader "Invoice account" [ref=e183]:
+                              - text: "::"
+                              - generic "Invoice account Click to follow link" [ref=e186]: Invoice account
+                            - columnheader "Vendor name" [ref=e187]:
+                              - text: "::"
+                              - generic "Vendor name" [ref=e190]
+                            - columnheader "Purchase type" [ref=e191]:
+                              - text: "::"
+                              - generic "Purchase type" [ref=e194]
+                            - columnheader "Approval status" [ref=e195]:
+                              - text: "::"
+                              - generic "Approval status" [ref=e198]
+                            - columnheader "Purchase order status" [ref=e199]:
+                              - text: "::"
+                              - generic "Purchase order status" [ref=e202]
+                            - columnheader "Currency" [ref=e203]:
+                              - text: "::"
+                              - generic "Currency Click to follow link" [ref=e206]: Currency
+                            - columnheader "Requested receipt date" [ref=e207]:
+                              - text: "::"
+                              - generic "Requested receipt date" [ref=e210]
+                            - columnheader "Mode of delivery" [ref=e211]:
+                              - text: "::"
+                              - generic "Mode of delivery Click to follow link" [ref=e214]: Mode of delivery
+                            - columnheader "Delivery terms" [ref=e215]:
+                              - text: "::"
+                              - generic "Delivery terms Click to follow link" [ref=e218]: Delivery terms
+                            - columnheader "Purchase agreement" [ref=e219]:
+                              - text: "::"
+                              - generic "Purchase agreement" [ref=e222]
+                            - columnheader "Quality order status" [ref=e223]:
+                              - text: "::"
+                              - generic "Quality order status" [ref=e226]
+                            - columnheader "Direct delivery" [ref=e227]:
+                              - text: "::"
+                              - generic "Direct delivery" [ref=e230]
+                            - columnheader "Project subcontract number" [ref=e231]:
+                              - text: "::"
+                              - generic "Project subcontract number Click to follow link" [ref=e234]: Project subcontract number
+                          - columnheader "Grid options" [ref=e237]:
+                            - button "Grid options" [ref=e243] [cursor=pointer]:
+                              - img [ref=e245]
+                      - generic:
+                        - row "000030 1001 1001 Acme Office Supplies Purchase order Approved Canceled USD 12/08/2016 Purchase agreement Direct delivery" [ref=e249]:
+                          - generic:
+                            - gridcell [ref=e252]:
+                              - checkbox "Select or unselect row" [ref=e253] [cursor=pointer]
+                            - generic [ref=e258]:
+                              - gridcell "000030" [ref=e259]:
+                                - textbox "Purchase order" [ref=e266] [cursor=pointer]: "000030"
+                              - gridcell "1001" [ref=e267]:
+                                - textbox "Vendor account" [ref=e274]: "1001"
+                              - gridcell "1001" [ref=e275]:
+                                - textbox "Invoice account" [ref=e282]: "1001"
+                              - gridcell "Acme Office Supplies" [ref=e283]:
+                                - textbox "Vendor name" [ref=e290]: Acme Office Supplies
+                              - gridcell "Purchase order" [ref=e291]:
+                                - textbox "Purchase type" [ref=e297] [cursor=pointer]: Purchase order
+                              - gridcell "Approved" [ref=e298]:
+                                - textbox "Approval status" [ref=e304] [cursor=pointer]: Approved
+                              - gridcell "Canceled" [ref=e305]:
+                                - textbox "Purchase order status" [ref=e311] [cursor=pointer]: Canceled
+                              - gridcell "USD" [ref=e312]:
+                                - textbox "Currency" [ref=e319]: USD
+                              - gridcell "12/08/2016" [ref=e320]:
+                                - textbox "Requested receipt date" [ref=e327]: 12/08/2016
+                              - gridcell [ref=e328]:
+                                - textbox "Mode of delivery" [ref=e335]
+                              - gridcell [ref=e336]:
+                                - textbox "Delivery terms" [ref=e343]
+                              - gridcell "Purchase agreement" [ref=e344]:
+                                - checkbox "Purchase agreement" [ref=e350]:
+                                  - generic "No" [ref=e351]:
+                                    - img [ref=e353]
+                              - gridcell [ref=e354]:
+                                - textbox "Quality order status" [ref=e360] [cursor=pointer]
+                              - gridcell "Direct delivery" [ref=e361]:
+                                - checkbox "Direct delivery" [ref=e367]:
+                                  - generic "No" [ref=e368]:
+                                    - img [ref=e370]
+                              - gridcell [ref=e371]:
+                                - textbox "Project subcontract number" [ref=e378]
+                        - row "000032 1001 1001 Acme Office Supplies Purchase order Confirmed Invoiced USD 12/15/2016 Purchase agreement Direct delivery" [ref=e382]:
+                          - generic:
+                            - gridcell [ref=e385]:
+                              - checkbox "Select or unselect row" [ref=e386] [cursor=pointer]
+                            - generic [ref=e391]:
+                              - gridcell "000032" [ref=e392]:
+                                - textbox "Purchase order" [ref=e399] [cursor=pointer]: "000032"
+                              - gridcell "1001" [ref=e400]:
+                                - textbox "Vendor account" [ref=e407]: "1001"
+                              - gridcell "1001" [ref=e408]:
+                                - textbox "Invoice account" [ref=e415]: "1001"
+                              - gridcell "Acme Office Supplies" [ref=e416]:
+                                - textbox "Vendor name" [ref=e423]: Acme Office Supplies
+                              - gridcell "Purchase order" [ref=e424]:
+                                - textbox "Purchase type" [ref=e430] [cursor=pointer]: Purchase order
+                              - gridcell "Confirmed" [ref=e431]:
+                                - textbox "Approval status" [ref=e437] [cursor=pointer]: Confirmed
+                              - gridcell "Invoiced" [ref=e438]:
+                                - textbox "Purchase order status" [ref=e444] [cursor=pointer]: Invoiced
+                              - gridcell "USD" [ref=e445]:
+                                - textbox "Currency" [ref=e452]: USD
+                              - gridcell "12/15/2016" [ref=e453]:
+                                - textbox "Requested receipt date" [ref=e460]: 12/15/2016
+                              - gridcell [ref=e461]:
+                                - textbox "Mode of delivery" [ref=e468]
+                              - gridcell [ref=e469]:
+                                - textbox "Delivery terms" [ref=e476]
+                              - gridcell "Purchase agreement" [ref=e477]:
+                                - checkbox "Purchase agreement" [ref=e483]:
+                                  - generic "No" [ref=e484]:
+                                    - img [ref=e486]
+                              - gridcell [ref=e487]:
+                                - textbox "Quality order status" [ref=e493] [cursor=pointer]
+                              - gridcell "Direct delivery" [ref=e494]:
+                                - checkbox "Direct delivery" [ref=e500]:
+                                  - generic "No" [ref=e501]:
+                                    - img [ref=e503]
+                              - gridcell [ref=e504]:
+                                - textbox "Project subcontract number" [ref=e511]
+                        - row "000033 1001 1001 Acme Office Supplies Purchase order Confirmed Invoiced USD 12/10/2016 Purchase agreement Direct delivery" [ref=e515]:
+                          - generic:
+                            - gridcell [ref=e518]:
+                              - checkbox "Select or unselect row" [ref=e519] [cursor=pointer]
+                            - generic [ref=e524]:
+                              - gridcell "000033" [ref=e525]:
+                                - textbox "Purchase order" [ref=e532] [cursor=pointer]: "000033"
+                              - gridcell "1001" [ref=e533]:
+                                - textbox "Vendor account" [ref=e540]: "1001"
+                              - gridcell "1001" [ref=e541]:
+                                - textbox "Invoice account" [ref=e548]: "1001"
+                              - gridcell "Acme Office Supplies" [ref=e549]:
+                                - textbox "Vendor name" [ref=e556]: Acme Office Supplies
+                              - gridcell "Purchase order" [ref=e557]:
+                                - textbox "Purchase type" [ref=e563] [cursor=pointer]: Purchase order
+                              - gridcell "Confirmed" [ref=e564]:
+                                - textbox "Approval status" [ref=e570] [cursor=pointer]: Confirmed
+                              - gridcell "Invoiced" [ref=e571]:
+                                - textbox "Purchase order status" [ref=e577] [cursor=pointer]: Invoiced
+                              - gridcell "USD" [ref=e578]:
+                                - textbox "Currency" [ref=e585]: USD
+                              - gridcell "12/10/2016" [ref=e586]:
+                                - textbox "Requested receipt date" [ref=e593]: 12/10/2016
+                              - gridcell [ref=e594]:
+                                - textbox "Mode of delivery" [ref=e601]
+                              - gridcell [ref=e602]:
+                                - textbox "Delivery terms" [ref=e609]
+                              - gridcell "Purchase agreement" [ref=e610]:
+                                - checkbox "Purchase agreement" [ref=e616]:
+                                  - generic "No" [ref=e617]:
+                                    - img [ref=e619]
+                              - gridcell [ref=e620]:
+                                - textbox "Quality order status" [ref=e626] [cursor=pointer]
+                              - gridcell "Direct delivery" [ref=e627]:
+                                - checkbox "Direct delivery" [ref=e633]:
+                                  - generic "No" [ref=e634]:
+                                    - img [ref=e636]
+                              - gridcell [ref=e637]:
+                                - textbox "Project subcontract number" [ref=e644]
+                        - row "000034 US-101 US-101 Fabrikam Electronics Purchase order Confirmed Invoiced USD 12/14/2016 10 FOB Purchase agreement Direct delivery" [ref=e648]:
+                          - generic:
+                            - gridcell [ref=e651]:
+                              - checkbox "Select or unselect row" [ref=e652] [cursor=pointer]
+                            - generic [ref=e657]:
+                              - gridcell "000034" [ref=e658]:
+                                - textbox "Purchase order" [ref=e665] [cursor=pointer]: "000034"
+                              - gridcell "US-101" [ref=e666]:
+                                - textbox "Vendor account" [ref=e673]: US-101
+                              - gridcell "US-101" [ref=e674]:
+                                - textbox "Invoice account" [ref=e681]: US-101
+                              - gridcell "Fabrikam Electronics" [ref=e682]:
+                                - textbox "Vendor name" [ref=e689]: Fabrikam Electronics
+                              - gridcell "Purchase order" [ref=e690]:
+                                - textbox "Purchase type" [ref=e696] [cursor=pointer]: Purchase order
+                              - gridcell "Confirmed" [ref=e697]:
+                                - textbox "Approval status" [ref=e703] [cursor=pointer]: Confirmed
+                              - gridcell "Invoiced" [ref=e704]:
+                                - textbox "Purchase order status" [ref=e710] [cursor=pointer]: Invoiced
+                              - gridcell "USD" [ref=e711]:
+                                - textbox "Currency" [ref=e718]: USD
+                              - gridcell "12/14/2016" [ref=e719]:
+                                - textbox "Requested receipt date" [ref=e726]: 12/14/2016
+                              - gridcell "10" [ref=e727]:
+                                - textbox "Mode of delivery" [ref=e734]: "10"
+                              - gridcell "FOB" [ref=e735]:
+                                - textbox "Delivery terms" [ref=e742]: FOB
+                              - gridcell "Purchase agreement" [ref=e743]:
+                                - checkbox "Purchase agreement" [ref=e749]:
+                                  - generic "No" [ref=e750]:
+                                    - img [ref=e752]
+                              - gridcell [ref=e753]:
+                                - textbox "Quality order status" [ref=e759] [cursor=pointer]
+                              - gridcell "Direct delivery" [ref=e760]:
+                                - checkbox "Direct delivery" [ref=e766]:
+                                  - generic "No" [ref=e767]:
+                                    - img [ref=e769]
+                              - gridcell [ref=e770]:
+                                - textbox "Project subcontract number" [ref=e777]
+                        - row "000035 US-111 US-111 Contoso office supply Purchase order Approved Open order USD 01/23/2017 10 EXW Purchase agreement Direct delivery" [ref=e781]:
+                          - generic:
+                            - gridcell [ref=e784]:
+                              - checkbox "Select or unselect row" [ref=e785] [cursor=pointer]
+                            - generic [ref=e790]:
+                              - gridcell "000035" [ref=e791]:
+                                - textbox "Purchase order" [ref=e798] [cursor=pointer]: "000035"
+                              - gridcell "US-111" [ref=e799]:
+                                - textbox "Vendor account" [ref=e806]: US-111
+                              - gridcell "US-111" [ref=e807]:
+                                - textbox "Invoice account" [ref=e814]: US-111
+                              - gridcell "Contoso office supply" [ref=e815]:
+                                - textbox "Vendor name" [ref=e822]: Contoso office supply
+                              - gridcell "Purchase order" [ref=e823]:
+                                - textbox "Purchase type" [ref=e829] [cursor=pointer]: Purchase order
+                              - gridcell "Approved" [ref=e830]:
+                                - textbox "Approval status" [ref=e836] [cursor=pointer]: Approved
+                              - gridcell "Open order" [ref=e837]:
+                                - textbox "Purchase order status" [ref=e843] [cursor=pointer]: Open order
+                              - gridcell "USD" [ref=e844]:
+                                - textbox "Currency" [ref=e851]: USD
+                              - gridcell "01/23/2017" [ref=e852]:
+                                - textbox "Requested receipt date" [ref=e859]: 01/23/2017
+                              - gridcell "10" [ref=e860]:
+                                - textbox "Mode of delivery" [ref=e867]: "10"
+                              - gridcell "EXW" [ref=e868]:
+                                - textbox "Delivery terms" [ref=e875]: EXW
+                              - gridcell "Purchase agreement" [ref=e876]:
+                                - checkbox "Purchase agreement" [ref=e882]:
+                                  - generic "No" [ref=e883]:
+                                    - img [ref=e885]
+                              - gridcell [ref=e886]:
+                                - textbox "Quality order status" [ref=e892] [cursor=pointer]
+                              - gridcell "Direct delivery" [ref=e893]:
+                                - checkbox "Direct delivery" [ref=e899]:
+                                  - generic "No" [ref=e900]:
+                                    - img [ref=e902]
+                              - gridcell [ref=e903]:
+                                - textbox "Project subcontract number" [ref=e910]
+                        - row "000036 US-111 US-111 Contoso office supply Purchase order Approved Open order USD 01/23/2017 10 EXW Purchase agreement Direct delivery" [ref=e914]:
+                          - generic:
+                            - gridcell [ref=e917]:
+                              - checkbox "Select or unselect row" [ref=e918] [cursor=pointer]
+                            - generic [ref=e923]:
+                              - gridcell "000036" [ref=e924]:
+                                - textbox "Purchase order" [ref=e931] [cursor=pointer]: "000036"
+                              - gridcell "US-111" [ref=e932]:
+                                - textbox "Vendor account" [ref=e939]: US-111
+                              - gridcell "US-111" [ref=e940]:
+                                - textbox "Invoice account" [ref=e947]: US-111
+                              - gridcell "Contoso office supply" [ref=e948]:
+                                - textbox "Vendor name" [ref=e955]: Contoso office supply
+                              - gridcell "Purchase order" [ref=e956]:
+                                - textbox "Purchase type" [ref=e962] [cursor=pointer]: Purchase order
+                              - gridcell "Approved" [ref=e963]:
+                                - textbox "Approval status" [ref=e969] [cursor=pointer]: Approved
+                              - gridcell "Open order" [ref=e970]:
+                                - textbox "Purchase order status" [ref=e976] [cursor=pointer]: Open order
+                              - gridcell "USD" [ref=e977]:
+                                - textbox "Currency" [ref=e984]: USD
+                              - gridcell "01/23/2017" [ref=e985]:
+                                - textbox "Requested receipt date" [ref=e992]: 01/23/2017
+                              - gridcell "10" [ref=e993]:
+                                - textbox "Mode of delivery" [ref=e1000]: "10"
+                              - gridcell "EXW" [ref=e1001]:
+                                - textbox "Delivery terms" [ref=e1008]: EXW
+                              - gridcell "Purchase agreement" [ref=e1009]:
+                                - checkbox "Purchase agreement" [ref=e1015]:
+                                  - generic "No" [ref=e1016]:
+                                    - img [ref=e1018]
+                              - gridcell [ref=e1019]:
+                                - textbox "Quality order status" [ref=e1025] [cursor=pointer]
+                              - gridcell "Direct delivery" [ref=e1026]:
+                                - checkbox "Direct delivery" [ref=e1032]:
+                                  - generic "No" [ref=e1033]:
+                                    - img [ref=e1035]
+                              - gridcell [ref=e1036]:
+                                - textbox "Project subcontract number" [ref=e1043]
+                        - row "000037 1001 1001 Acme Office Supplies Purchase order Approved Open order USD 01/23/2017 Purchase agreement Direct delivery" [ref=e1047]:
+                          - generic:
+                            - gridcell [ref=e1050]:
+                              - checkbox "Select or unselect row" [ref=e1051] [cursor=pointer]
+                            - generic [ref=e1056]:
+                              - gridcell "000037" [ref=e1057]:
+                                - textbox "Purchase order" [ref=e1064] [cursor=pointer]: "000037"
+                              - gridcell "1001" [ref=e1065]:
+                                - textbox "Vendor account" [ref=e1072]: "1001"
+                              - gridcell "1001" [ref=e1073]:
+                                - textbox "Invoice account" [ref=e1080]: "1001"
+                              - gridcell "Acme Office Supplies" [ref=e1081]:
+                                - textbox "Vendor name" [ref=e1088]: Acme Office Supplies
+                              - gridcell "Purchase order" [ref=e1089]:
+                                - textbox "Purchase type" [ref=e1095] [cursor=pointer]: Purchase order
+                              - gridcell "Approved" [ref=e1096]:
+                                - textbox "Approval status" [ref=e1102] [cursor=pointer]: Approved
+                              - gridcell "Open order" [ref=e1103]:
+                                - textbox "Purchase order status" [ref=e1109] [cursor=pointer]: Open order
+                              - gridcell "USD" [ref=e1110]:
+                                - textbox "Currency" [ref=e1117]: USD
+                              - gridcell "01/23/2017" [ref=e1118]:
+                                - textbox "Requested receipt date" [ref=e1125]: 01/23/2017
+                              - gridcell [ref=e1126]:
+                                - textbox "Mode of delivery" [ref=e1133]
+                              - gridcell [ref=e1134]:
+                                - textbox "Delivery terms" [ref=e1141]
+                              - gridcell "Purchase agreement" [ref=e1142]:
+                                - checkbox "Purchase agreement" [ref=e1148]:
+                                  - generic "No" [ref=e1149]:
+                                    - img [ref=e1151]
+                              - gridcell [ref=e1152]:
+                                - textbox "Quality order status" [ref=e1158] [cursor=pointer]
+                              - gridcell "Direct delivery" [ref=e1159]:
+                                - checkbox "Direct delivery" [ref=e1165]:
+                                  - generic "No" [ref=e1166]:
+                                    - img [ref=e1168]
+                              - gridcell [ref=e1169]:
+                                - textbox "Project subcontract number" [ref=e1176]
+                        - row "000038 104 104 Best Supplier - Europe Purchase order Approved Open order EUR 01/23/2017 Purchase agreement Direct delivery" [ref=e1180]:
+                          - generic:
+                            - gridcell [ref=e1183]:
+                              - checkbox "Select or unselect row" [ref=e1184] [cursor=pointer]
+                            - generic [ref=e1189]:
+                              - gridcell "000038" [ref=e1190]:
+                                - textbox "Purchase order" [ref=e1197] [cursor=pointer]: "000038"
+                              - gridcell "104" [ref=e1198]:
+                                - textbox "Vendor account" [ref=e1205]: "104"
+                              - gridcell "104" [ref=e1206]:
+                                - textbox "Invoice account" [ref=e1213]: "104"
+                              - gridcell "Best Supplier - Europe" [ref=e1214]:
+                                - textbox "Vendor name" [ref=e1221]: Best Supplier - Europe
+                              - gridcell "Purchase order" [ref=e1222]:
+                                - textbox "Purchase type" [ref=e1228] [cursor=pointer]: Purchase order
+                              - gridcell "Approved" [ref=e1229]:
+                                - textbox "Approval status" [ref=e1235] [cursor=pointer]: Approved
+                              - gridcell "Open order" [ref=e1236]:
+                                - textbox "Purchase order status" [ref=e1242] [cursor=pointer]: Open order
+                              - gridcell "EUR" [ref=e1243]:
+                                - textbox "Currency" [ref=e1250]: EUR
+                              - gridcell "01/23/2017" [ref=e1251]:
+                                - textbox "Requested receipt date" [ref=e1258]: 01/23/2017
+                              - gridcell [ref=e1259]:
+                                - textbox "Mode of delivery" [ref=e1266]
+                              - gridcell [ref=e1267]:
+                                - textbox "Delivery terms" [ref=e1274]
+                              - gridcell "Purchase agreement" [ref=e1275]:
+                                - checkbox "Purchase agreement" [ref=e1281]:
+                                  - generic "No" [ref=e1282]:
+                                    - img [ref=e1284]
+                              - gridcell [ref=e1285]:
+                                - textbox "Quality order status" [ref=e1291] [cursor=pointer]
+                              - gridcell "Direct delivery" [ref=e1292]:
+                                - checkbox "Direct delivery" [ref=e1298]:
+                                  - generic "No" [ref=e1299]:
+                                    - img [ref=e1301]
+                              - gridcell [ref=e1302]:
+                                - textbox "Project subcontract number" [ref=e1309]
+                        - row "000039 1001 1001 Acme Office Supplies Purchase order Confirmed Invoiced USD 01/23/2017 Purchase agreement Direct delivery" [ref=e1313]:
+                          - generic:
+                            - gridcell [ref=e1316]:
+                              - checkbox "Select or unselect row" [ref=e1317] [cursor=pointer]
+                            - generic [ref=e1323]:
+                              - gridcell "000039" [ref=e1324]:
+                                - textbox "Purchase order" [ref=e1331] [cursor=pointer]:
+                                  - /placeholder: ""
+                                  - text: "000039"
+                              - gridcell "1001" [ref=e1332]:
+                                - textbox "Vendor account" [ref=e1339] [cursor=pointer]:
+                                  - /placeholder: ""
+                                  - text: "1001"
+                              - gridcell "1001" [ref=e1340]:
+                                - textbox "Invoice account" [ref=e1347] [cursor=pointer]:
+                                  - /placeholder: ""
+                                  - text: "1001"
+                              - gridcell "Acme Office Supplies" [ref=e1348]:
+                                - textbox "Vendor name" [ref=e1355]:
+                                  - /placeholder: ""
+                                  - text: Acme Office Supplies
+                              - gridcell "Purchase order" [ref=e1356]:
+                                - textbox "Purchase type" [ref=e1362] [cursor=pointer]: Purchase order
+                              - gridcell "Confirmed" [ref=e1363]:
+                                - textbox "Approval status" [ref=e1369] [cursor=pointer]: Confirmed
+                              - gridcell "Invoiced" [ref=e1370]:
+                                - textbox "Purchase order status" [ref=e1376] [cursor=pointer]: Invoiced
+                              - gridcell "USD" [ref=e1377]:
+                                - textbox "Currency" [ref=e1384] [cursor=pointer]:
+                                  - /placeholder: ""
+                                  - text: USD
+                              - gridcell "01/23/2017" [ref=e1385]:
+                                - textbox "Requested receipt date" [ref=e1392]:
+                                  - /placeholder: ""
+                                  - text: 01/23/2017
+                              - gridcell [ref=e1393]:
+                                - textbox "Mode of delivery" [ref=e1400] [cursor=pointer]:
+                                  - /placeholder: ""
+                              - gridcell [ref=e1401]:
+                                - textbox "Delivery terms" [ref=e1408] [cursor=pointer]:
+                                  - /placeholder: ""
+                              - gridcell "Purchase agreement" [ref=e1409]:
+                                - checkbox "Purchase agreement" [ref=e1415]:
+                                  - generic "No" [ref=e1416]:
+                                    - img [ref=e1418]
+                              - gridcell [ref=e1419]:
+                                - textbox "Quality order status" [ref=e1425] [cursor=pointer]
+                              - gridcell "Direct delivery" [ref=e1426]:
+                                - checkbox "Direct delivery" [ref=e1432]:
+                                  - generic "No" [ref=e1433]:
+                                    - img [ref=e1435]
+                              - gridcell [ref=e1436]:
+                                - textbox "Project subcontract number" [ref=e1443] [cursor=pointer]:
+                                  - /placeholder: ""
+              - text:  
+          - text:    
+```

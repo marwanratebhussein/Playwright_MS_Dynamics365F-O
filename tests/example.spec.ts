@@ -30,3 +30,19 @@ test('Open the F&O dashboard', async({ page }) => {
   await page.goto("https://de-cd-demo1.sandbox.operations.eu.dynamics.com/?cmp=usmf&mi=DefaultDashboard");
   await expect(page.locator('xpath=//span[contains(text(), "Contoso Entertainment System USA")]')).toBeVisible();
 });
+
+test('Create Purchase Order', async({ page }) => {
+  await page.goto("https://de-cd-demo1.sandbox.operations.eu.dynamics.com/?cmp=usmf&mi=DefaultDashboard");
+  await expect(page.locator('xpath=//span[contains(text(), "Contoso Entertainment System USA")]')).toBeVisible();
+  await page.locator('xpath=//span[@data-dyn-title="Modules"]').click();
+  await page.locator('xpath=//a[@aria-posinset="1"]').click();
+  await page.locator('xpath=//a[@data-dyn-title="All purchase orders"]').click();
+  await page.locator('xpath=//span[@class="button-commandRing New-symbol"]').click();
+  await page.getByLabel('Create purchase order').getByRole('combobox', { name: 'Vendor account' }).fill('Acme');
+  await page.locator('#PurchCreateOrder_3_PurchTable_OrderAccount > .lookupDock-buttonContainer > .lookupButton').click();
+  await page.keyboard.press('Enter');
+  await page.getByRole('combobox', { name: 'Warehouse' }).fill('ColdWH');
+  await page.locator('#PurchCreateOrder_3_PurchTable_InventLocationId > .lookupDock-buttonContainer > .lookupButton').click();
+  await page.keyboard.press('Enter');
+  await page.getByRole('button', { name: 'OK' }).click();
+});
